@@ -4,7 +4,7 @@ rabbitmq
 RPC implementation of a service providing fibonacci calculation
 ---------------------------------------------------------------
 
-based on https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/perl
+(inspired by https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/perl)
 
 
 rpc_server.pl:      web service for calculating fibonacci series
