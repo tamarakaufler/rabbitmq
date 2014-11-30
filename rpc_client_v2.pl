@@ -101,7 +101,7 @@ sub fibonacci($) {
 
     my $channel = $conn->open_channel();
 
-    my $result          = $channel->declare_queue(exclusive => 1);
+    my $result          = $channel->declare_queue(exclusive => 1);      # after we disconnect, the quue will be deleted
     my $callback_queue  = $result->{method_frame}->{queue};
 
     my $on_response = sub {
