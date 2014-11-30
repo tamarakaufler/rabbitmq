@@ -7,13 +7,15 @@ RPC implementation of a service providing fibonacci calculation
 (inspired by https://github.com/rabbitmq/rabbitmq-tutorials/tree/master/perl)
 
 
-rpc_server.pl:      web service for calculating fibonacci series
+rpc_server.pl:      
+                    web service for calculating fibonacci series<br />
                     uses caching to speed up calculations for big numbers
 
 perl rpc_server.pl
 
-rpc_client_v2.pl:   requests calculation of a list if integers
-                    requests done in a parallelized manner
+rpc_client_v2.pl:   
+                    requests calculation of a list if integers<br />
+                    requests done in a parallelized manner<br />
                     input taken from the command line. If not present then default provided
 
 perl rpc_client_v2.p 
